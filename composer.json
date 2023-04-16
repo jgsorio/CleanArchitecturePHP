@@ -1,0 +1,19 @@
+{
+    "name": "root/www",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Guilherme",
+            "email": "joseguilhermesorio@gmail.com"
+        }
+    ],
+    "require": {
+        "spipu/html2pdf": "^4.6",
+        "dompdf/dompdf": "^2.0",
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
